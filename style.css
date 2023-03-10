@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #3d64;
+}
+
+.container {
+    background-color: #fff;
+    /* background-image: linear-gradient(to bottom, orange, white, green); */
+    padding: 3rem 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    max-width: 37.5rem;
+    box-shadow: 0 1.25rem 1.8rem rgba();
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.searchWrapper {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 1rem;
+}
+
+.searchWrapper input {
+    font-size: 1rem;
+    padding: 0 0.6rem;
+    border: none;
+    border-bottom: 2px solid #3d64;
+    outline: none;
+    color: #222a43;
+}
+
+.searchWrapper button {
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: #3d64;
+    color: #594f4f;
+    padding: 0.8rem 0;
+    border: none;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+}
+
+.container #result {
+    margin-top: 1.25rem;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.container .flagImage  {
+    display: block;
+    width: 45%;
+    min-width: 7.5rem;
+    margin: 1.8rem auto 1.2rem auto;
+}
+
+.container h2 {
+    font-weight: 600;
+    color: #222a43;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.8rem;
+}
+
+.dataWrapper {
+    margin-bottom: 1rem;
+    letter-spacing: 0.8px;
+    /* display: flex;
+    align-items: center; */
+}
+
+.container h4 {
+    display: inline;
+    font-weight: 500;
+    color: #222a43;
+}
+
+.container span {
+    color: #594f4f;
+}
+
+.container h3 {
+    color: red;
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
